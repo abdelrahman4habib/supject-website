@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+}
+
+:root {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 1500px;
+}
+
+/* library */
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* start nav */
+nav {
+  background-color: white;
+  box-shadow: -5px -4px 10px black;
+  font-size: 21px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav .logo {
+  float: left;
+}
+
+nav .logo p {
+  padding: 20px;
+}
+
+nav .nav-links {
+  float: right;
+}
+
+nav .nav-links ul {
+  list-style: none;
+}
+
+nav .nav-links ul li {
+  float: left;
+  padding: 20px;
+}
+
+nav .nav-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header */
+header {
+  /* height: 600px;
+    background-image: url(../images/architect.jpg);
+    background-size: cover ;
+    background-attachment: fixed ; */
+
+  position: relative;
+}
+
+header img {
+  width: 100%;
+}
+
+header .hero {
+  /* hero image */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+header .hero p {
+  font-size: 60px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+header .hero p .header-br {
+  background: #00000078;
+  padding: 15px 20px;
+}
+
+/* project section  */
+
+#projects,
+h2 {
+  margin-top: 40px;
+}
+
+#projects h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#projects hr {
+  margin-bottom: 40px;
+}
+
+#projects .second {
+  margin-top: 20px;
+}
+
+#projects .parent .child,
+.ebn {
+  width: calc(100% / 4 - 10px);
+  position: relative;
+  margin-right: 10px;
+  float: left;
+}
+
+#projects .parent .child img,
+.ebn img {
+  width: 100%;
+}
+
+#projects .parent .child .summer-house {
+  background: black;
+  color: white;
+  padding: 10px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* about section */
+.about-header-section p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.ebn span {
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.ebn p {
+  padding: 0 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.ebn button {
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: rgb(209, 208, 208);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.ebn button:hover {
+  background-color: #636262;
+}
+.header-contact {
+  display: inline-block;
+}
+h2 {
+  margin-top: 100px;
+  font-size: 20px;
+}
+.header-contact hr {
+  width: 100vm;
+  margin-left: -5vm;
+  border: 1px solid #ccc;
+}
+form input,
+form textarea {
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+button {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 35px;
+  font-size: 15px;
+}
+.map {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding-top: 40px;
+}
